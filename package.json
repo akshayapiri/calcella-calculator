@@ -1,0 +1,12 @@
+{
+  "name": "calella-calculator",
+  "version": "1.0.0",
+  "description": "A beautiful, aesthetic calculator built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": ["calculator", "html", "css", "javascript"],
+  "author": "",
+  "license": "MIT"
+}

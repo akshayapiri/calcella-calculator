@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: calella-calculator
+    runtime: python
+    plan: free
+    buildCommand: echo "Building Calcélla Calculator..."
+    startCommand: python3 -m http.server $PORT
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=3600
