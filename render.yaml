@@ -1,7 +1,10 @@
-static_sites:
-  - name: calcella-calculator
+services:
+  - type: web
+    name: calcella-calculator
+    runtime: static
+    staticPublishPath: .
     buildCommand: ""
-    publishPath: .
+    startCommand: "npx serve . -l $PORT"
     headers:
       - path: /*
         name: Cache-Control

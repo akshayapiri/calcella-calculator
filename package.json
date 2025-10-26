@@ -1,0 +1,13 @@
+{
+  "name": "calcella-calculator",
+  "version": "1.0.0",
+  "description": "Beautiful aesthetic calculator",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l $PORT"
+  },
+  "keywords": ["calculator"],
+  "author": "",
+  "license": "MIT"
+}
+
