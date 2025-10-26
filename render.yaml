@@ -1,8 +1,7 @@
-services:
-  - type: web
-    name: calcella-calculator
-    runtime: static
-    staticPublishPath: .
+static_sites:
+  - name: calcella-calculator
+    buildCommand: ""
+    publishPath: .
     headers:
       - path: /*
         name: Cache-Control
