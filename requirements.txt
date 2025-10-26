@@ -1,1 +1,1 @@
-# No dependencies needed for static site
+# Python 3.x is required for http.server

@@ -1,10 +1,7 @@
 services:
   - type: web
-    name: calella-calculator
-    runtime: python
-    plan: free
-    buildCommand: echo "Building Calcélla Calculator..."
-    startCommand: python3 -m http.server $PORT
+    name: calcella-calculator
+    runtime: static
     staticPublishPath: .
     headers:
       - path: /*
